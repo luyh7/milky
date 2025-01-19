@@ -1,5 +1,5 @@
-import AppLayout from '@/layout/AppLayout.vue';
-import { createRouter, createWebHistory } from 'vue-router';
+import AppLayout from '@/layout/AppLayout.vue'
+import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -133,6 +133,6 @@ const router = createRouter({
             component: () => import('@/views/pages/auth/Error.vue')
         }
     ]
-});
+})
 
-export default router;
+export default router
