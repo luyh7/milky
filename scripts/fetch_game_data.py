@@ -10,7 +10,7 @@ DATA_URL = [
 
 
 # 输出文件路径
-OUTPUT_DIR = "./data"
+OUTPUT_DIR = "./public/data"
 OUTPUT_JSON = [f"{OUTPUT_DIR}/data.json", f"{OUTPUT_DIR}/market.json"]
 
 
