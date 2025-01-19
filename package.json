@@ -4,6 +4,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
+        "deploy": "vite build && gh-pages -d dist",
         "preview": "vite preview",
         "lint": "eslint --fix . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
     },
